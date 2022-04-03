@@ -6,6 +6,7 @@
 
 :root {
     --red-color: #EA0000;
+    --black-color: #EA0000;
     --text-font: "Poppins", sans-serif;
     --heading-font: "Abhaya Libre", serif;
 }
@@ -87,21 +88,40 @@ header button {
     height: 3rem;
     margin-top: 4rem;
     font-weight: 700;
+    border-radius: 10px;
     font-family: var(--text-font);
 }
 
 .red-btn {
     background-color: var(--red-color);
     margin-right: 1rem;
-    box-shadow: -1px 59px 110px -5px rgba(255,0,0,0.75);
-    -webkit-box-shadow: -1px 59px 110px -5px rgba(255,0,0,0.75);
-    -moz-box-shadow: -1px 59px 110px -5px rgba(255,0,0,0.75);
+    box-shadow: 0px 100px 80px rgba(234, 0, 37, 0.1), 0px 64.8148px 46.8519px rgba(234, 0, 37, 0.0759259), 0px 38.5185px 25.4815px rgba(234, 0, 37, 0.0607407), 0px 20px 13px rgba(234, 0, 37, 0.05), 0px 8.14815px 6.51852px rgba(234, 0, 37, 0.0392593), 0px 1.85185px 3.14815px rgba(234, 0, 37, 0.0240741);
+    -webkit-box-shadow: 0px 100px 80px rgba(234, 0, 37, 0.1), 0px 64.8148px 46.8519px rgba(234, 0, 37, 0.0759259), 0px 38.5185px 25.4815px rgba(234, 0, 37, 0.0607407), 0px 20px 13px rgba(234, 0, 37, 0.05), 0px 8.14815px 6.51852px rgba(234, 0, 37, 0.0392593), 0px 1.85185px 3.14815px rgba(234, 0, 37, 0.0240741);
+    -moz-box-shadow: 0px 100px 80px rgba(234, 0, 37, 0.1), 0px 64.8148px 46.8519px rgba(234, 0, 37, 0.0759259), 0px 38.5185px 25.4815px rgba(234, 0, 37, 0.0607407), 0px 20px 13px rgba(234, 0, 37, 0.05), 0px 8.14815px 6.51852px rgba(234, 0, 37, 0.0392593), 0px 1.85185px 3.14815px rgba(234, 0, 37, 0.0240741);
 }
 
 .black-btn {
     background-color: #000;
-    box-shadow: -1px 59px 110px -5px #000;
-    -webkit-box-shadow: -1px 59px 110px -5px #000;
-    -moz-box-shadow: -1px 59px 110px -5px #000;
+    box-shadow: 0px 100px 80px rgba(68, 68, 68, 0.1), 0px 64.8148px 46.8519px rgba(68, 68, 68, 0.0759259), 0px 38.5185px 25.4815px rgba(68, 68, 68, 0.0607407), 0px 20px 13px rgba(68, 68, 68, 0.05), 0px 8.14815px 6.51852px rgba(68, 68, 68, 0.0392593), 0px 1.85185px 3.14815px rgba(68, 68, 68, 0.0240741);
+    -webkit-box-shadow: 0px 100px 80px rgba(68, 68, 68, 0.1), 0px 64.8148px 46.8519px rgba(68, 68, 68, 0.0759259), 0px 38.5185px 25.4815px rgba(68, 68, 68, 0.0607407), 0px 20px 13px rgba(68, 68, 68, 0.05), 0px 8.14815px 6.51852px rgba(68, 68, 68, 0.0392593), 0px 1.85185px 3.14815px rgba(68, 68, 68, 0.0240741);
+    -moz-ox-shadow: 0px 100px 80px rgba(68, 68, 68, 0.1), 0px 64.8148px 46.8519px rgba(68, 68, 68, 0.0759259), 0px 38.5185px 25.4815px rgba(68, 68, 68, 0.0607407), 0px 20px 13px rgba(68, 68, 68, 0.05), 0px 8.14815px 6.51852px rgba(68, 68, 68, 0.0392593), 0px 1.85185px 3.14815px rgba(68, 68, 68, 0.0240741);
 }
 
+.food-time {
+    margin-top: 7rem;
+}
+
+.food-time div:nth-child(1) {
+    margin-right: 3rem;
+}
+
+.food-time p:nth-child(1){
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.food-time p:nth-child(2){
+    opacity: 0.5;
+    font-weight: 500;
+    font-size: 0.85rem;
+}
