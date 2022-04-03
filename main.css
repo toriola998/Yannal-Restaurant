@@ -26,6 +26,13 @@ p {
   font-weight: 500;
 }
 
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--red-color);
+    font-weight: 800;
+}
+
+/***********STYLES FOR HEADER***********/
 .nav-top {
   justify-content: space-between;
   padding: 1rem 1.5rem;
@@ -71,14 +78,11 @@ header .online-orders {
   font-size: .9rem;
 }
 
-header .online-orders ,
-header h1 {
+header .online-orders {
     color: #EA0000;
 }
 
 header h1 {
-  font-weight: 800;
-  font-family: "Abhaya Libre", serif;
   font-size: 29vw;
 }
 
@@ -138,4 +142,45 @@ header button {
 .hero-bg img{
     width: 100%;
     height: auto;
+}
+
+main {
+    padding: 0 1.5rem;
+}
+
+/***********STYLES FOR POPULAR PRODUCTS***********/
+.popular-products .heading p,
+.popular-products .heading h2{
+     text-align: center;
+}
+
+.heading p {
+    font-weight: 700;
+    font-size: .9rem;
+}
+
+.heading h2 {
+    font-size: 11vw;
+}
+
+.product img,
+.product button{
+    margin: auto;
+    display: block;
+}
+
+.product p {
+    text-align: center;
+}
+
+.food-origin {
+    font-weight: 400;
+    font-size: .85rem;
+    margin: 1rem 0;
+}
+
+.food-name {
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
 }
