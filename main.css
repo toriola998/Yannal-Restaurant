@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+    --red-color: #EA0000;
+    --text-font: "Poppins", sans-serif;
+    --heading-font: "Abhaya Libre", serif;
+}
+
+button {
+  outline: 0;
+  border: 0;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.nav-top {
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+}
+
+.show-lists {
+  display: block;
+}
+
+nav button {
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+}
+
+nav ul {
+  display: none;
+}
+
+.links {
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
+  background-color: #FCC7C3;
+  position: fixed;
+  z-index: 10;
+  transition: 0.5s transform ease;
+  top: 0;
+  left: 0;
+  transform: translateX(-100vw);
+}
+
+.show-links {
+  transform: translateX(0);
+}
+
+header {
+  padding: 3rem 1.5rem;
+}
+
+header .online-orders {
+  text-transform: uppercase;
+  font-size: .9rem;
+}
+
+header .online-orders ,
+header h1 {
+    color: #EA0000;
+}
+
+header h1 {
+  font-weight: 800;
+  font-family: "Abhaya Libre", serif;
+  font-size: 29vw;
+}
+
+header button {
+    color: #fff;
+    width: 9rem;
+    height: 3rem;
+    margin-top: 4rem;
+    font-weight: 700;
+    font-family: var(--text-font);
+}
+
+.red-btn {
+    background-color: var(--red-color);
+    margin-right: 1rem;
+    box-shadow: -1px 59px 110px -5px rgba(255,0,0,0.75);
+    -webkit-box-shadow: -1px 59px 110px -5px rgba(255,0,0,0.75);
+    -moz-box-shadow: -1px 59px 110px -5px rgba(255,0,0,0.75);
+}
+
+.black-btn {
+    background-color: #000;
+    box-shadow: -1px 59px 110px -5px #000;
+    -webkit-box-shadow: -1px 59px 110px -5px #000;
+    -moz-box-shadow: -1px 59px 110px -5px #000;
+}
+
