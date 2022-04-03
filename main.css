@@ -14,6 +14,7 @@
 button {
   outline: 0;
   border: 0;
+  font-family: var(--text-font);
 }
 
 .flex {
@@ -32,7 +33,7 @@ h1, h2 {
     font-weight: 800;
 }
 
-/***********STYLES FOR HEADER***********/
+/***********STYLES FOR HEADER STARTS***********/
 .nav-top {
   justify-content: space-between;
   padding: 1rem 1.5rem;
@@ -93,12 +94,15 @@ header button {
     margin-top: 4rem;
     font-weight: 700;
     border-radius: 10px;
-    font-family: var(--text-font);
 }
 
 .red-btn {
-    background-color: var(--red-color);
     margin-right: 1rem;
+}
+
+.red-btn,
+.product button {
+    background-color: var(--red-color);
     box-shadow: 0px 100px 80px rgba(234, 0, 37, 0.1), 0px 64.8148px 46.8519px rgba(234, 0, 37, 0.0759259), 0px 38.5185px 25.4815px rgba(234, 0, 37, 0.0607407), 0px 20px 13px rgba(234, 0, 37, 0.05), 0px 8.14815px 6.51852px rgba(234, 0, 37, 0.0392593), 0px 1.85185px 3.14815px rgba(234, 0, 37, 0.0240741);
     -webkit-box-shadow: 0px 100px 80px rgba(234, 0, 37, 0.1), 0px 64.8148px 46.8519px rgba(234, 0, 37, 0.0759259), 0px 38.5185px 25.4815px rgba(234, 0, 37, 0.0607407), 0px 20px 13px rgba(234, 0, 37, 0.05), 0px 8.14815px 6.51852px rgba(234, 0, 37, 0.0392593), 0px 1.85185px 3.14815px rgba(234, 0, 37, 0.0240741);
     -moz-box-shadow: 0px 100px 80px rgba(234, 0, 37, 0.1), 0px 64.8148px 46.8519px rgba(234, 0, 37, 0.0759259), 0px 38.5185px 25.4815px rgba(234, 0, 37, 0.0607407), 0px 20px 13px rgba(234, 0, 37, 0.05), 0px 8.14815px 6.51852px rgba(234, 0, 37, 0.0392593), 0px 1.85185px 3.14815px rgba(234, 0, 37, 0.0240741);
@@ -144,6 +148,8 @@ header button {
     height: auto;
 }
 
+/***********STYLES FOR HEADER ENDS***********/
+
 main {
     padding: 0 1.5rem;
 }
@@ -163,10 +169,18 @@ main {
     font-size: 11vw;
 }
 
+.product {
+    margin: 2rem 0 7rem;
+}
+
 .product img,
 .product button{
     margin: auto;
     display: block;
+}
+
+.product img:nth-child(1) {
+    margin: 0 auto 1.5rem;
 }
 
 .product p {
@@ -183,4 +197,12 @@ main {
     font-weight: 700;
     font-size: 1.3rem;
     margin-bottom: 1.5rem;
+}
+
+.product button {
+    color: #f9f9f9;
+    font-weight: 400;
+    height: 3rem;
+    padding: 0 1.5rem;
+    font-size: .8rem;
 }
