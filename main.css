@@ -155,8 +155,8 @@ main {
 }
 
 /***********STYLES FOR POPULAR PRODUCTS***********/
-.popular-products .heading p,
-.popular-products .heading h2{
+.heading p,
+ .heading h2{
      text-align: center;
 }
 
@@ -166,7 +166,8 @@ main {
 }
 
 .heading h2 {
-    font-size: 11vw;
+    font-size: 13vw;
+    line-height: 1;
 }
 
 .product {
@@ -206,3 +207,4 @@ main {
     padding: 0 1.5rem;
     font-size: .8rem;
 }
+/***********STYLES FOR POPULAR PRODUCTS***********/
