@@ -214,6 +214,7 @@ main {
     border: 1px solid #efefef;
     border-radius: 30px;
     padding: 1.5rem;
+    margin-top: 3rem;
 }
 
 .delicacy .food-img {
