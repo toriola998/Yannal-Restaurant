@@ -7,6 +7,8 @@
 :root {
     --red-color: #EA0000;
     --black-color: #000;
+    --light-peach-color: #fef2f2;
+    --dark-peach-color: #FCC7C3;
     --text-font: "Poppins", sans-serif;
     --heading-font: "Abhaya Libre", serif;
 }
@@ -147,27 +149,24 @@ header button {
     width: 100%;
     height: auto;
 }
-
 /***********STYLES FOR HEADER ENDS***********/
-
-main {
-    padding: 0 1.5rem;
-}
 
 /***********STYLES FOR POPULAR PRODUCTS***********/
 .heading p,
- .heading h2{
+.heading h2{
      text-align: center;
 }
 
-.heading p {
+.heading p,
+.download {
     font-weight: 700;
     font-size: .9rem;
 }
 
-.heading h2 {
+ h2 {
     font-size: 13vw;
     line-height: 1;
+    letter-spacing: -3px;
 }
 
 .product {
@@ -207,9 +206,9 @@ main {
     padding: 0 1.5rem;
     font-size: .8rem;
 }
-/***********STYLES FOR POPULAR PRODUCTS***********/
+/***********STYLES FOR POPULAR PRODUCTS ENDS***********/
 
-/***********STYLES FOR POPULAR MENU***********/
+/***********STYLES FOR POPULAR MENU* STARTS**********/
 .delicacy {
     border: 1px solid #efefef;
     border-radius: 30px;
@@ -227,9 +226,13 @@ main {
     padding: .4rem 0;
 }
 
-.delicacy-description {
+.delicacy-description,
+.discover {
     font-weight: 400;
     font-size: .9rem;
+}
+
+.delicacy-description {
     padding-bottom: 1.5rem;
 }
 
@@ -253,3 +256,30 @@ main {
     width: 2rem;
     justify-content: center;
 } 
+/***********STYLES FOR POPULAR MENU ENDS***********/
+
+/***********STYLES FOR DOWNLOAD OUR APP STARTS***********/
+.download-app {
+    background-color: var(--light-peach-color);
+    padding: 4rem 0;
+}
+
+.mobile-phone {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.download-app > div {
+    padding: 2rem 1.5rem;
+}
+
+.discover {
+    margin: 2rem 0;
+}
+
+.download {
+    font-size: 1rem;
+    margin-bottom: .5rem;
+}
+/***********STYLES FOR DOWNLOAD OUR APP ENDS***********/
