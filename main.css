@@ -6,7 +6,7 @@
 
 :root {
     --red-color: #EA0000;
-    --black-color: #EA0000;
+    --black-color: #000;
     --text-font: "Poppins", sans-serif;
     --heading-font: "Abhaya Libre", serif;
 }
@@ -208,3 +208,47 @@ main {
     font-size: .8rem;
 }
 /***********STYLES FOR POPULAR PRODUCTS***********/
+
+/***********STYLES FOR POPULAR MENU***********/
+.delicacy {
+    border: 1px solid #efefef;
+    border-radius: 30px;
+    padding: 1.5rem;
+}
+
+.delicacy .food-img {
+    display: block;
+    margin: auto;
+}
+
+.delicacy-name {
+    font-weight: 600;
+    padding: .4rem 0;
+}
+
+.delicacy-description {
+    font-weight: 400;
+    font-size: .9rem;
+    padding-bottom: 1.5rem;
+}
+
+.delicacy > .flex{
+    justify-content: space-between;
+}
+
+.red {
+    background-color: var(--red-color);
+    margin-right: .5rem;
+}
+
+.black {
+    background-color: var(--black-color);
+}
+
+.red,
+.black {
+    border-radius: 8px;
+    height: 2rem;
+    width: 2rem;
+    justify-content: center;
+} 
