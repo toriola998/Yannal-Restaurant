@@ -6,7 +6,7 @@
 
 :root {
     --red-color: #EA0000;
-    --black-color: #000;
+    --black-color: #2A333E;
     --light-peach-color: #fef2f2;
     --dark-peach-color: #FCC7C3;
     --text-font: "Poppins", sans-serif;
@@ -281,5 +281,41 @@ header button {
 .download {
     font-size: 1rem;
     margin-bottom: .5rem;
+}
+
+.app-btns {
+    background-color: var(--black-color);
+    padding: .7rem 1rem;
+    width: 11rem;
+    color: #fff;
+    border-radius: 7px;
+    font-family: var(--text-font);
+    margin-bottom: 1rem;
+}
+
+.action {
+    font-size: .65rem;
+}
+
+.app-btn-wrap img{
+    margin-right: .5rem;
+}
+
+.app-btn-wrap a > span {
+    line-height: 1.1;
+}
+
+@media screen and (min-width: 420px) {
+    .app-btn-wrap {
+        display: flex;
+    }
+
+    .app-btns {
+        margin-bottom: initial;
+    }
+
+    .app-btns:nth-child(1){
+        margin: 0 1rem 0 0;
+    }
 }
 /***********STYLES FOR DOWNLOAD OUR APP ENDS***********/
