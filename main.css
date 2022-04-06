@@ -13,9 +13,11 @@
     --heading-font: "Abhaya Libre", serif;
 }
 
-button {
+button,
+input {
   outline: 0;
   border: 0;
+  background-color: transparent;
   font-family: var(--text-font);
 }
 
@@ -353,3 +355,46 @@ header button {
     }
 
 /***********STYLES FOR TESTIMONIAL ENDS***********/
+
+/***********STYLES FOR DISCOUNTS STARTS***********/
+    .discounts {
+        padding: 0 1.5rem;
+    }
+
+    .discounts > div,
+    .discounts .flex {
+        border: 1px solid var(--red-color);
+        border-radius: 30px;
+    }
+
+    .discounts > div {
+        padding: 1.5rem 1rem;
+    }
+
+    .discounts h3,
+    .discounts p {
+        text-align: center;
+    }
+
+    .discounts h3 {
+        font-family: var(--text-font);
+        color: var(--black-color);
+    }
+
+    .discounts p {
+        margin: 1rem 0;
+        font-size: .9rem;
+    }
+
+    .discounts .flex {
+        justify-content: space-between;
+        padding: 0.1rem 0.1rem 0.1rem 1rem;
+    }
+
+    .discounts button {
+        background-color: var(--red-color);
+        color: #fff;
+        border-radius: 30px;
+        padding: .5rem 1rem;
+    }
+/***********STYLES FOR DISCOUNTS STARTS***********/
