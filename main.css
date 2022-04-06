@@ -431,7 +431,11 @@ header button {
     footer li {
         font-weight: 400;
         font-size: .9rem;
-        padding-bottom: .5rem;
+        padding-bottom: .9rem;
+    }
+
+    footer li img {
+        margin-right: 1rem;
     }
 
     .copyright {
