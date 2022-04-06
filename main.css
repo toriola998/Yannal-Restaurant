@@ -323,7 +323,11 @@ header button {
     .testimonial {
         padding: 0 1.5rem;
         margin: 4rem 0;
-    }    
+    } 
+    
+    .testimony {
+        margin-top: 4rem;
+    }
 
     .small-heading {
         text-align: center;
@@ -341,6 +345,11 @@ header button {
 
     .place {
         font-weight: 400;
+        margin: .2rem 0 1rem;
+    }
+
+    .testimony-rating {
+        margin-bottom: 1rem;
     }
 
 /***********STYLES FOR TESTIMONIAL ENDS***********/
