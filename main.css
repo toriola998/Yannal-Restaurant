@@ -226,8 +226,7 @@ header button {
     padding: .4rem 0;
 }
 
-.delicacy-description,
-.discover {
+.small-heading {
     font-weight: 400;
     font-size: .9rem;
 }
@@ -319,3 +318,29 @@ header button {
     }
 }
 /***********STYLES FOR DOWNLOAD OUR APP ENDS***********/
+
+/***********STYLES FOR TESTIMONIAL STARTS***********/
+    .testimonial {
+        padding: 0 1.5rem;
+        margin: 4rem 0;
+    }    
+
+    .small-heading {
+        text-align: center;
+    }
+
+    .testimonial .small-heading,
+    .testimonial h2 {
+        text-align: center;
+    }
+
+    .testimonial span {
+        color: var(--red-color);
+        font-weight: 700;
+    }
+
+    .place {
+        font-weight: 400;
+    }
+
+/***********STYLES FOR TESTIMONIAL ENDS***********/
