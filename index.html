@@ -14,7 +14,7 @@
     <body>
         <div class="flex nav-top">
             <img src="./assets/logo.svg" alt="yannal restaurant"/>
-            <nav aria-controls="menu" >
+            <nav aria-controls="menu" role="navigation">
                 <button class="menu" id="hamburger">
                     <img src="./assets/menu.svg" 
                         alt="Hamburger menu"
@@ -35,7 +35,7 @@
                </div>
             </nav>
         </div>
-        <header>
+        <header role="banner">
             <p class="online-orders">Now taking online orders</p>
             <h1>kababs</h1>
             <p>Restaurant style Yogurt Mint Sauce is delicious dip which is quick 
@@ -61,7 +61,7 @@
                 <img src="./assets/hero-img.png" alt="Image of a stick meat"/>
             </div>
         </header>
-        <main>
+        <main role="main">
             <section aria-labelledby="popular-products" class="popular-products">
                 <div class="heading">
                     <p class="small-heading">ONLINE STORE</p>
@@ -93,6 +93,39 @@
                 </div>
             </section>
 
+            <section aria-labelledby="our-fast-delivery" class="delivery">
+                <button class="active-btn">
+                    <span>
+                        <img src="" alt="cup of coffe"/>
+                    </span>
+                    Coffee
+                </button>
+
+                <div>
+                    <img src="" alt=""/>
+                    <p>Fast Food</p>
+                </div>
+                <div>
+                    <img src="" alt=""/>
+                    <p>Pizza</p>
+                </div>
+                <div>
+                    <img src="" alt=""/>
+                    <p>Dessi Menu</p>
+                </div>
+                <div>
+                    <img src="" alt=""/>
+                    <p>Desserts</p>
+                </div>
+    
+                <div>
+                    <p>Faster Food Delivery Service</p>
+                </div>
+                <h2 id="our-fast-delivery">Get delivered<br> while it is still hot.</h2>
+                <p>Bring together your discussions memberships and content.
+                    Start your 7-day free trial.</p>
+                <button>GET STARTED</button>
+            </section>
             <section aria-labelledby="popular-delicacies" class="popular-delicacies">
                 <div class="heading">
                     <p class="small-heading">POPULAR MENU</p>
@@ -229,10 +262,10 @@
                 </div>
             </section>
         </main>
-        <footer>
+        <footer role="contentinfo">
             <div>
                 <a href="#">
-                    <img src="./assets/footer-logo.png" alt="Yannal restaurant"/>
+                    <img src="./assets/footer-logo.png" alt="Yannal restaurant - Home"/>
                 </a>
                 
                 <div class="social-media flex">
