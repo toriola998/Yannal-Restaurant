@@ -24,13 +24,13 @@
                 <h2></h2>
                 <ul>
                     <li>
-                        <router-link to="/">HOME</router-link></li>
+                        <a href="/">HOME</a></li>
                     <li>
-                        <router-link to="/headphones">HEADPHONES</router-link></li>
+                        <a href="/headphones">HEADPHONES</a></li>
                     <li>
-                        <router-link to="/speakers">SPEAKERS</router-link></li>
+                        <a href="/speakers">SPEAKERS</a></li>
                     <li>
-                        <router-link to="/earphones">EARPHONES</router-link></li>
+                        <a href="/earphones">EARPHONES</a></li>
                 </ul>
                </div>
             </nav>
@@ -64,7 +64,7 @@
         <main>
             <section aria-labelledby="popular-products" class="popular-products">
                 <div class="heading">
-                    <p>ONLINE STORE</p>
+                    <p class="small-heading">ONLINE STORE</p>
                     <h2 id="popular-products">Popular Products</h2>
                 </div>
 
@@ -93,9 +93,9 @@
                 </div>
             </section>
 
-            <section aria-labelledby="popular-delicacies">
-                <div class="heading small-heading">
-                    <p>POPULAR MENU</p>
+            <section aria-labelledby="popular-delicacies" class="popular-delicacies">
+                <div class="heading">
+                    <p class="small-heading">POPULAR MENU</p>
                     <h2 id="popular-delicacies">Amazing Food Served With Delicacy</h2>
                 </div>
 
@@ -142,6 +142,12 @@
                         </div>
                     </div>
                 </div>
+
+                <button class="see-all-menu flex">See All Menu
+                    <span class="flex">
+                        <img src="./assets/icons/arrow.png" alt=""/>
+                    </span>
+                </button>
             </section>
 
             <section aria-label="download our app" class="download-app">
