@@ -37,6 +37,10 @@ h1, h2 {
     font-weight: 800;
 }
 
+ul {
+    list-style-type: none;
+}
+
 /***********STYLES FOR HEADER STARTS***********/
 .nav-top {
   justify-content: space-between;
@@ -369,6 +373,9 @@ header button {
 
     .discounts > div {
         padding: 1.5rem 1rem;
+        margin-bottom: -4rem;
+        position: relative;
+        background-color: #fff;
     }
 
     .discounts h3,
@@ -402,12 +409,35 @@ header button {
 /***********STYLES FOR FOOTER STARTS***********/
     footer {
         background-color: var(--black-color);
-        padding: 4rem 1.5rem;
+        padding: 8rem 1.5rem 1rem;
+        color: #fff;
     }
 
     .social-media {
         justify-content: space-between;
         width: 6rem;
         margin-top: 2rem;
+    }
+
+    h4, footer li {
+        font-family: var(--text-font);
+    }
+
+    h4 {
+        font-size: 1.2rem;
+        margin: 2.5rem 0 1.5rem;
+    }
+
+    footer li {
+        font-weight: 400;
+        font-size: .9rem;
+        padding-bottom: .5rem;
+    }
+
+    .copyright {
+        font-size: .9rem;
+        text-align: center;
+        margin-top: 4rem;
+        font-weight: 400;
     }
 /***********STYLES FOR FOOTER STARTS***********/

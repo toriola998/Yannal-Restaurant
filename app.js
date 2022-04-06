@@ -23,5 +23,5 @@ navLinks.forEach(link => {
 });
 
 //Update the copyright year automatically
-//const date = document.getElementById("date");
-//date.innerHTML = new Date().getFullYear();
+const date = document.getElementById("date");
+date.innerHTML = new Date().getFullYear();
