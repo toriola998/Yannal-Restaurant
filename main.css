@@ -398,3 +398,16 @@ header button {
         padding: .5rem 1rem;
     }
 /***********STYLES FOR DISCOUNTS STARTS***********/
+
+/***********STYLES FOR FOOTER STARTS***********/
+    footer {
+        background-color: var(--black-color);
+        padding: 4rem 1.5rem;
+    }
+
+    .social-media {
+        justify-content: space-between;
+        width: 6rem;
+        margin-top: 2rem;
+    }
+/***********STYLES FOR FOOTER STARTS***********/
