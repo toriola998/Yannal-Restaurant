@@ -68,10 +68,6 @@ nav button {
   border: 0;
 }
 
-/*nav ul {
-  display: none;
-}*/
-
 .links {
   overflow: hidden;
   height: 100vh;
@@ -221,6 +217,32 @@ header button {
 /***********STYLES FOR OUR FAST DELIVERY STARTS***********/
     .delivery{
         padding: 0 1.5rem;
+    }
+
+    .active-btn {
+        width: 8rem;
+        padding: .5rem;
+        color: #fff;
+    }
+
+    .white-bg {
+        background-color: #fff;
+        justify-content: center;
+        border-radius: 5px;
+        padding: .2rem;
+        margin-right: 1rem;
+    }
+
+    .white-bg img {
+        width: 2rem;
+    }
+
+    .fast-delivery-inner > div {
+        margin-top: 2rem;
+    }
+
+    .fast-delivery-inner p {
+        font-size: .85rem;
     }
 /***********STYLES FOR OUR FAST DELIVERY ENDS***********/
 
