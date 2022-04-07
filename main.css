@@ -232,17 +232,24 @@ header button {
         padding: .2rem;
         margin-right: 1rem;
     }
-
-    .white-bg img {
-        width: 2rem;
+    
+    .fast-delivery {
+        justify-content: space-between;
+        padding-bottom: 5rem;
     }
 
     .fast-delivery-inner > div {
-        margin-top: 2rem;
+        margin-top: 3rem;
+    }
+
+    .fast-delivery-inner img {
+        width: 2rem;
     }
 
     .fast-delivery-inner p {
-        font-size: .85rem;
+        font-size: .8rem;
+        margin-left: 1rem;
+        opacity: 0.5;
     }
 /***********STYLES FOR OUR FAST DELIVERY ENDS***********/
 
