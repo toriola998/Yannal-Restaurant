@@ -14,7 +14,7 @@
     <body>
         <div class="flex nav-top">
             <img src="./assets/logo.svg" alt="yannal restaurant"/>
-            <nav aria-controls="menu" role="navigation">
+            <!--<nav aria-controls="menu" role="navigation">
                 <button class="menu" 
                         id="hamburger" 
                         aria-label="Open Menu"
@@ -27,7 +27,7 @@
                 <h2>Main menu</h2>
                 <ul>
                     <li>
-                        <a href="#">HOME</a></li>
+                        <a href="#" aria-current="page">HOME</a></li>
                     <li>
                         <a href="#">HEADPHONES</a></li>
                     <li>
@@ -36,7 +36,43 @@
                         <a href="#">EARPHONES</a></li>
                 </ul>
                </div>
-            </nav>
+            </nav>-->
+            <nav role="navigation">
+                <!-- aria-controls is optional. Jaws screenreader is the only one that 
+                exposes that kind of link -->
+                <button class="menu" 
+                    id="hamburger" 
+                    aria-label="Toggle Menu" 
+                    aria-expanded="false" 
+                    aria-controls="mainNavLinks">
+                    <!-- role presentation or aria-hidden ensures the svg is hidden from 
+                    assistive tech every time -->
+                    <img src="./assets/menu.svg"  
+                         alt="Hamburger menu" 
+                         width="50" 
+                         role="presentation" />
+                </button>
+                <div id="mainNavLinks" 
+                     class="links" 
+                     aria-labelledby="mainNavHeading" 
+                     aria-live="polite">
+                    <h2 id="mainNavHeading" hidden>Main menu</h2>
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Headphones</a>
+                        </li>
+                        <li>
+                            <a href="#">Speakers</a>
+                        </li>
+                        <li>
+                            <a href="#">Earphones</a>
+                        </li>
+                  </ul>
+                </div>
+              </nav>
         </div>
         <header role="banner">
             <p class="online-orders">Now taking online orders</p>
