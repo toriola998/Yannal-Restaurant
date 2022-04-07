@@ -219,6 +219,10 @@ header button {
         padding: 0 1.5rem;
     }
 
+    .delivery h2 {
+        margin: 2rem 0;
+    }
+
     .active-btn {
         width: 8rem;
         padding: .5rem;
@@ -232,7 +236,7 @@ header button {
         padding: .2rem;
         margin-right: 1rem;
     }
-    
+
     .fast-delivery {
         justify-content: space-between;
         padding-bottom: 5rem;
@@ -250,6 +254,26 @@ header button {
         font-size: .8rem;
         margin-left: 1rem;
         opacity: 0.5;
+    }
+
+    .faster {
+        background-color: var(--dark-peach-color);
+        border-radius: 30px;
+        justify-content: center;
+        width: 17rem;
+        padding: .3rem 0;
+    }
+
+    .faster p {
+        font-size: .85rem;
+        margin-right: .7rem;
+        font-weight: 400;
+    }
+
+    .light-peach-bg {
+        background-color: var(--light-peach-color);
+        border-radius: 30px;
+        padding: 1rem;
     }
 /***********STYLES FOR OUR FAST DELIVERY ENDS***********/
 
