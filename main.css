@@ -551,3 +551,39 @@ header button {
         font-weight: 400;
     }
 /***********STYLES FOR FOOTER STARTS***********/
+
+@media screen and (min-width: 520px) {
+    .nav-top {
+        padding: 1rem 4rem;
+    }
+
+    header {
+        padding: 3rem 4rem;
+    }
+
+    header h1 {
+        font-size: 25vw;
+    }
+
+    .popular-products,
+    .testimonial,
+    .discounts  {
+        padding: 0 4rem;
+    }
+    
+    .delivery {
+        padding: 0 4rem 6rem;
+    }
+
+    .popular-delicacies {
+        padding: 0 4rem 8rem;
+    }
+
+    .download-app {
+        padding: 4rem 3rem;
+    }
+
+    footer {
+        padding: 8rem 4em 1rem;
+    }
+}
