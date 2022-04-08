@@ -274,7 +274,12 @@ header button {
     .light-peach-bg {
         background-color: var(--light-peach-color);
         border-radius: 30px;
-        padding: 4rem 1rem ;
+        padding: 1rem;
+        position: relative;
+    }
+
+    .pagination {
+        padding-bottom: 3rem;
     }
 
     .delivery-note {
@@ -287,6 +292,17 @@ header button {
          color: #fff;
          font-family: var(--text-font);
          padding: 1.2rem 1rem;
+         margin-bottom: 4rem;
+    }
+
+    .dn-mobile {
+        display: none;
+    }
+
+    .leaf {
+        position: absolute;
+        top: -2rem;
+        right: 4rem;
     }
 /***********STYLES FOR OUR FAST DELIVERY ENDS***********/
 
