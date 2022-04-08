@@ -298,12 +298,6 @@ header button {
     .dn-mobile {
         display: none;
     }
-
-    .leaf {
-        position: absolute;
-        top: -2rem;
-        right: 4rem;
-    }
 /***********STYLES FOR OUR FAST DELIVERY ENDS***********/
 
 /***********STYLES FOR POPULAR DELICACIES STARTS**********/
@@ -570,7 +564,7 @@ header button {
     .discounts  {
         padding: 0 4rem;
     }
-    
+
     .delivery {
         padding: 0 4rem 6rem;
     }
@@ -585,5 +579,79 @@ header button {
 
     footer {
         padding: 8rem 4em 1rem;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    h2 {
+        font-size: 9vw;
+    }
+
+    .product-container,
+    .delicacy-container,
+    .testimonial-container,
+    .footer-grid{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .product-container {
+        padding-top: 4rem;
+    }
+
+    .delicacy-container {
+        column-gap: 1rem;
+    }
+
+    .light-peach-bg {
+        padding: 1rem 3rem;
+    }
+
+    .dn-mobile {
+        display: block;
+    }
+
+    .leaf {
+        position: absolute;
+        top: -2rem;
+        right: 4rem;
+    }
+
+    .cube-decor {
+        position: absolute;
+        left: -3rem;
+    }
+
+    .coffee-cup {
+        position: absolute;
+        right: -2rem;
+        bottom: -3rem;
+        width: 13rem;
+    }
+
+    .download-app {
+        padding: 4rem 8rem;
+    }
+
+    .testimonial-container {
+        gap: 2rem;
+    }
+
+    .discounts > div > div {
+        width: 60%;
+        margin: auto;
+    }
+
+    .discounts p {
+        margin: 1rem auto;
+        width: 300px;
+    }
+
+    .footer-grid {
+        row-gap: 4rem;
+    }
+
+    h4 {
+        margin: 0 0 1.5rem;
     }
 }
