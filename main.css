@@ -98,8 +98,9 @@ header .online-orders {
     color: #EA0000;
 }
 
-header h1 {
+h1 {
   font-size: 29vw;
+  letter-spacing: -10px;
 }
 
 header button {
@@ -555,7 +556,7 @@ header button {
         padding: 3rem 4rem;
     }
 
-    header h1 {
+     h1 {
         font-size: 25vw;
     }
 
@@ -654,4 +655,33 @@ header button {
     h4 {
         margin: 0 0 1.5rem;
     }
+}
+
+@media screen and (min-width: 1000px) {
+    header {
+        display: grid;
+        grid-template-columns: 50% auto;
+    }
+
+    .hero-bg {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 60%;
+    }
+
+    .hero-bg img {
+        height: 700px;
+        object-fit: cover;
+    }
+
+     h1 {
+        font-size: 13vw;
+    }
+
+    .footer-grid {
+        grid-template-columns: auto auto auto auto;
+        justify-content: space-between;
+    }
+
 }
