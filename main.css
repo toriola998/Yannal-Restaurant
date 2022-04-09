@@ -699,6 +699,40 @@ header button {
 }
 
 @media screen and (min-width: 1000px) {
+    .menu,
+    #close-icon {
+        display: none;
+    } 
+
+    .links {
+        overflow: visible;
+        transform: inherit;
+        background-color: transparent;
+        height: 9rem;
+        width: initial;
+        position: absolute;
+        left: initial;
+        right: 2rem;
+    }
+
+    .links > div,
+    nav ul {
+        display: flex;
+    }
+
+    .links > div {
+        justify-content: space-between;
+    }
+
+    nav ul {
+        justify-content: space-between;
+        margin-right: 5rem;
+    }
+
+    nav ul li a {
+        padding: 0 1rem;
+    }
+   
     header {
         grid-template-columns: 50% auto;
     }
@@ -719,7 +753,7 @@ header button {
 
     .hero-bg {
         position: absolute;
-        top: 0;
+        top: 45px;
         right: 0;
         width: 60%;
     }
@@ -796,6 +830,10 @@ header button {
 }
 
 @media screen and (min-width: 1200px) {
+    nav ul {
+        margin-right: 14rem;
+    }
+
     header {
         padding: 3rem 8rem;
     }
