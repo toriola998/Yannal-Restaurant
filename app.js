@@ -15,10 +15,10 @@ menuBtn.addEventListener('click', () => {
 })
 
 //Close the side bar once the close icon gets clicked
-//closeIcon.addEventListener('click', function(){
-//    links.classList.remove('show-links');
-      // menuBtn.setAttribute("aria-expanded", false)
-//});
+closeIcon.addEventListener('click', function(){
+   links.classList.remove('show-links');
+      menuBtn.setAttribute("aria-expanded", false)
+});
 
 //CLOSE THE NAV-BAR ONCE A LINK IS CLICKED
 navLists.forEach(link => {  
@@ -27,14 +27,6 @@ navLists.forEach(link => {
     menuBtn.setAttribute("aria-expanded", false)
   }); 
 });
-
-//const activePage = window.location.pathname;
-//const navLinks = document.querySelectorAll('nav li a').forEach(link => {
- // if(link.href.includes(`${activePage}`)){
- //   link.setAttribute("aria-current", 'page')
- //   console.log(link);
- // }
-//})
 
 //UPDATE THE COPYRIGHT YEAR AUTOMATICALLY
 const date = document.getElementById("date");

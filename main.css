@@ -52,7 +52,8 @@ ul {
     line-height: 1;
     letter-spacing: -3px;
 }
-/***********STYLES FOR HEADER STARTS***********/
+
+/***********STYLES FOR MENU-BAR STARTS***********/
 .nav-top {
   justify-content: space-between;
   padding: 1rem 1.5rem;
@@ -72,12 +73,15 @@ nav button {
   overflow: hidden;
   height: 100vh;
   width: 100%;
-  background-color: #FCC7C3;
+  background-color: var(--light-peach-color);
   position: fixed;
   z-index: 10;
   transition: 0.5s transform ease;
   top: 0;
   left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   transform: translateX(-100vw);
 }
 
@@ -85,6 +89,29 @@ nav button {
   transform: translateX(0);
 }
 
+#close-icon {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+}
+
+nav ul {
+    margin-bottom: 4rem;
+}
+
+nav ul li {
+    font-family: var(--text-font);
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+
+nav ul li a{
+    color: var(--black-color);
+    text-decoration: none;
+}
+/***********STYLES FOR MENU-BAR ENDS***********/
+
+/***********STYLES FOR HEADER STARTS***********/
 header {
   padding: 3rem 1.5rem;
 }
@@ -623,19 +650,22 @@ header button {
         display: block;
     }
 
-    .leaf {
+    .leaf,
+    .cube-decor,
+    .coffee-cup {
         position: absolute;
+    }
+
+    .leaf {
         top: -2rem;
         right: 4rem;
     }
 
     .cube-decor {
-        position: absolute;
         left: -3rem;
     }
 
     .coffee-cup {
-        position: absolute;
         right: -1rem;
         bottom: -2rem;
         width: 13rem;
@@ -670,8 +700,13 @@ header button {
 
 @media screen and (min-width: 1000px) {
     header {
-        display: grid;
         grid-template-columns: 50% auto;
+    }
+
+    header, 
+    .delivery,
+    .download-app{
+        display: grid;
     }
 
     #popular-delicacies {
@@ -695,23 +730,27 @@ header button {
     }
 
      h1 {
-        font-size: 13vw;
+        font-size: 9rem;
+    }
+
+    .product-container,
+    .delicacy-container,
+    .download-app,
+    .testimonial-container {
+        justify-content: center;
     }
 
     .product-container {
-        justify-content: center;
         column-gap: 6rem;
     }
 
     .delivery {
-        display: grid;
         grid-template-columns: auto 65%;
         gap: 5rem;
     }
 
     .delicacy-container {
         column-gap: 4rem;
-        justify-content: center;
     }
 
     .delicacy {
@@ -719,11 +758,9 @@ header button {
     }
 
     .download-app {
-        display: grid;
         grid-template-columns: 50% 50%;
         align-items: center;
         gap: 2rem;
-        justify-content: center;
     }
 
     .delivery {
@@ -736,7 +773,6 @@ header button {
 
     .testimonial-container {
         grid-template-columns: 35% 35%;
-        justify-content: center;
         gap: 6rem;
     }
 
@@ -757,12 +793,23 @@ header button {
         grid-template-columns: auto auto auto auto;
         justify-content: space-between;
     }
-
 }
 
 @media screen and (min-width: 1200px) {
+    header {
+        padding: 3rem 8rem;
+    }
+
+    .nav-top {
+        padding: 1rem 8rem;
+    }
+
+    .hero-intro{
+        width: 450px;
+    }
+
     .popular-products {
-        padding: 3rem 6rem 4rem;
+        padding: 3rem 6rem 6rem;
     }
 
     .product-container {
@@ -810,5 +857,15 @@ header button {
 
     footer {
         padding: 8rem 8rem 1rem;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .nav-top,
+    header,
+    main,
+    .footer-grid {
+        max-width: 1330px;
+        margin: auto;
     }
 }
