@@ -704,6 +704,10 @@ header button {
         display: none;
     } 
 
+    header {
+        padding: 7rem 4rem 3rem;
+    }
+
     .links {
         overflow: visible;
         transform: inherit;
@@ -720,12 +724,7 @@ header button {
         display: flex;
     }
 
-    .links > div {
-        justify-content: space-between;
-    }
-
     nav ul {
-        justify-content: space-between;
         margin-right: 5rem;
     }
 
@@ -835,11 +834,11 @@ header button {
     }
 
     header {
-        padding: 3rem 8rem;
+        padding: 7rem 6rem 3rem;
     }
 
     .nav-top {
-        padding: 1rem 8rem;
+        padding: 1rem 6rem;
     }
 
     .hero-intro{
