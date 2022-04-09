@@ -731,6 +731,10 @@ header button {
     nav ul li a {
         padding: 0 1rem;
     }
+
+    nav ul li a:hover {
+        border-bottom: 2px solid var(--red-color);
+    }
    
     header {
         grid-template-columns: 50% auto;
