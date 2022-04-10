@@ -21,6 +21,10 @@ input {
   font-family: var(--text-font);
 }
 
+a {
+    text-decoration: none;
+}
+
 .flex {
   display: flex;
   align-items: center;
