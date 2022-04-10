@@ -21,6 +21,15 @@ input {
   font-family: var(--text-font);
 }
 
+button {
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+button:hover {
+    transform: scale(0.9);
+}
+
 a {
     text-decoration: none;
 }
