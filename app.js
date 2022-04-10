@@ -14,7 +14,7 @@ menuBtn.addEventListener('click', () => {
     }
 })
 
-//Close the side bar once the close icon gets clicked
+//CLOSE THE NAV-BAR ONCE THE CLOSE-ICON GETS CLICKED
 closeIcon.addEventListener('click', function(){
    links.classList.remove('show-links');
       menuBtn.setAttribute("aria-expanded", false)

@@ -506,14 +506,16 @@ header button {
         background-color: #fff;
     }
 
-    .discounts h3,
+    .discounts h2,
     .discounts p {
         text-align: center;
     }
 
-    .discounts h3 {
+    .discounts h2 {
         font-family: var(--text-font);
         color: var(--black-color);
+        font-size: 1.2rem;
+        letter-spacing: initial;
     }
 
     .discounts p {
@@ -547,13 +549,14 @@ header button {
         margin-top: 2rem;
     }
 
-    h4, footer li {
+    .contact-heading, footer li {
         font-family: var(--text-font);
     }
 
-    h4 {
-        font-size: 1.2rem;
-        margin: 2.5rem 0 1.5rem;
+    .contact-heading {
+        font-size: 1.3rem;
+        margin: 0rem 0 1.5rem;
+        font-weight: 700;
     }
 
     footer li {
