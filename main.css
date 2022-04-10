@@ -572,7 +572,8 @@ header button {
         font-weight: 700;
     }
 
-    footer li {
+    footer li,
+    footer a {
         font-weight: 400;
         font-size: .9rem;
         padding-bottom: .9rem;
