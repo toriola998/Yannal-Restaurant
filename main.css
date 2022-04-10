@@ -120,7 +120,6 @@ nav ul li {
 
 nav ul li a{
     color: var(--black-color);
-    text-decoration: none;
 }
 /***********STYLES FOR MENU-BAR ENDS***********/
 
@@ -568,12 +567,11 @@ header button {
 
     .contact-heading {
         font-size: 1.3rem;
-        margin: 0rem 0 1.5rem;
+        margin: 2.5rem 0 1.5rem;
         font-weight: 700;
     }
 
-    footer li,
-    footer a {
+    footer li {
         font-weight: 400;
         font-size: .9rem;
         padding-bottom: .9rem;
@@ -710,7 +708,7 @@ header button {
         row-gap: 4rem;
     }
 
-    h4 {
+    .contact-heading {
         margin: 0 0 1.5rem;
     }
 }
