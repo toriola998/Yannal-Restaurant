@@ -4,7 +4,7 @@
 ![](./assets/screenshot.png)
 
 ## Links
-- Live Site URL: [https://www.toriola.xyz/](https://www.toriola.xyz/)
+- Live Site URL: [https://yannal-restaurant.netlify.app/](https://yannal-restaurant.netlify.app/)
 
 ## Built with
 - HTML
